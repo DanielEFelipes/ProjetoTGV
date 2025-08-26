@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Paula Souza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/etec.jpg">
+    <style>
+
+        body {
+            margin: 0;
+        }
+        .site {
+            width: 75%;
+            float: right;
+            margin-right: 5%;
+        }
+        .menudolado {
+            background-color: antiquewhite;
+            float: left;
+            width: 20%;
+            background-color: rgb(109, 16, 16);
+            height: 82rem;
+            margin: 10;
+            text-align: center;
+            align-items: center;
+            color: beige;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 40px;
+            align-self: center;
+        }
+        #menu {
+            background-color: rgb(255, 243, 243);
+            display:flex;
+            justify-content: space-evenly;
+            width:100%;
+            height: 70px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            align-items: center;
+        }
+        .titulos {
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+
+        .subtitulos {
+            font-size: 20px;
+            color: rgb(31, 31, 31);
+            text-align: justify;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .Cursos {
+            font-size: 18px;
+            padding-left: 40px;
+            color: rgb(99, 99, 99);
+            text-align: justify;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .card{
+            align-items: end;
+            font-size: 13px;
+            margin:auto;
+        }
+
+        
+
+        .rodape{
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        height: 100px;
+            background-color: rgb(255, 243, 243) ;
+            float: inline-end;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+<?php include_once "menu.php"; ?><?php include_once "menu.php"; ?>
+    <div class="site">
+        <div class="titulos">Etec Dr. Geraldo José Rodrigues Alckmin</div>
+            <a href="img/etec_entrada.jpg"></a>
+        <div class="Cursos">
+                        <center><img src="img/etec_entrada.jpg" class="" alt="..." height="500" width="700"></center><br>
+         A Escola Técnica Estadual Dr. Geraldo José Rodrigues Alckmin, do Centro Paula Souza e também conhecida como “Etec Taubaté”,
+        é uma instituição de ensino que se destaca pela excelência na formação de jovens nas áreas de ensino médio e técnico.
+        A escola oferece um ambiente de aprendizado de qualidade, preparando os estudantes para as exigências do mercado de trabalho
+        e para uma formação cidadã completa.<br>
+         A importância do ensino médio e técnico é indiscutível, já que são as fases fundamentais para a formação de indivíduos
+        com habilidades e competências necessárias para o ingresso no mercado de trabalho e na sociedade como um todo. É nessa fase
+        que o estudante é preparado para o mundo profissional, onde aprenderá as habilidades técnicas necessárias para o seu futuro 
+        trabalho. Ao mesmo tempo, o ensino médio e técnico proporciona uma base sólida de conhecimentos, habilidades sociais e valores 
+        éticos que são essenciais para uma vida plena e para a cidadania.<br>
+        Somos uma escola que se destaca no município de Taubaté,
+        por oferecermos uma formação educacional completa e de qualidade para os nossos alunos. Com aulas teóricas e práticas,
+        os estudantes têm a oportunidade de receber uma formação completa e atualizada.
+        </div>
+        </div>
+    <div class="menudolado">
+        ETEC Taubaté
+        <div class="card" style="width: 16rem;">
+            <img src="img/etec_portao.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Inscrições abertas em 2025</h5>
+              <p class="card-texto">A ETEC abre neste sábado, dia 12, as inscrições para o vestibulinho de 2025...</p>
+              <a href="noticias.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div><p></p>
+
+          <div class="card" style="width: 16rem;">
+            <img src="img/etec_laboratorio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Etec recebe Material Novo</h5>
+              <p class="card-texto">Na última segunda (7), O governo enviou um novo material para a Etec...</p>
+              <a href="noticias.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+
+          </div><p></p>
+
+          <div class="card" style="width: 16rem;">
+            <img src="img/etec_refeitorio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Reforma urgente do refeitório</h5>
+              <p class="card-texto">"As mesas estão em péssimas condições", diz ex-aluno da Etec...</p>
+              <a href="noticias.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div><p></p>
+        </div>
+          <footer class="rodape"><img src="img/logo.png" width="60px" height="60px"><p>Etec Dr. Geraldo José Rodrigues Alckmin 2025©</footer>
+         
+</body>
+</html>
+
+
